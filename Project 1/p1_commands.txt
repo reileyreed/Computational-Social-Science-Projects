@@ -1,0 +1,10 @@
+cd code
+git clone git@github.com:reileyreed/Computational-Social-Science-Projects.git
+cd Computational-Social-Science-Projects
+mkdir "Project 1"
+cd Project\ 1
+touch p1_commands.txt
+subl p1_commands.txt
+git add .
+git commit -m "adding project 1 folder and txt file with commands"
+git push
